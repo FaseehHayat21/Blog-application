@@ -1,0 +1,6 @@
+.blog-item{
+    text-wrap: wrap;
+}
+i:hover {
+  cursor: pointer;
+}

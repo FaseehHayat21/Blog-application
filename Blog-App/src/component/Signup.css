@@ -1,0 +1,52 @@
+
+.signup{
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+    padding-top: 4vh;
+    background-color: rgb(104, 89, 69);
+   background-image: url("../Images/Experience4.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.signup-form{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    color: whitesmoke;
+}
+.heading{
+    padding-top: 3vh;
+    text-align: center;
+}
+@media screen and (max-width: 576px) {
+    .signup-form {
+      width: 50%;
+      height: auto;
+      border-radius: 1vh;
+    }
+  
+    .heading {
+      padding-top: 1vh;
+    }
+  }
+  
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    .signup-form {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .signup-form {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }

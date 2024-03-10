@@ -1,0 +1,45 @@
+.aboutus {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+    background-color: #999898;
+}
+
+.about-heading {
+    font-weight: bolder;
+}
+
+.responsive-table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.responsive-table th,
+td {
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive-table {
+        width: 100%;
+    }
+}
+
+ul {
+    list-style: circle;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: #77a090;
+    font-style: italic;
+    border-top: 1px solid black;
+}

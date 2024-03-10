@@ -1,0 +1,40 @@
+.point-one {
+    background-color: #999898;
+    border-bottom: 2px solid black;
+}
+
+.container1 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+}
+
+.left-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #ffffff; */
+    font-size: larger;
+    font-style: italic;
+}
+
+.right-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-item img {
+    /* border: 2px solid black; */
+    width: 110vh;
+    border-radius: 30px;
+    height: 90vh;
+}
